@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #9b1a90;
+    --color-primary: #101820;
+}
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 0.5px gray;
+  }
+  .font-outline-1 {
+    -webkit-text-stroke: 0.01px gray;
+  }
 }
