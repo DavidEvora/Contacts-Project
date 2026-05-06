@@ -52,7 +52,7 @@ export const Agenda = () => {
               <button
                 type="submit"
                 disabled={saving}
-                className="rounded-lg bg-primary px-10 py-3 font-semibold text-white transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-60"
+                className="rounded-lg bg-indigo-500 px-10 py-3 font-semibold text-white transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
               >{saving ? "Creating..." : "Create!"}
               </button>
             </div>
